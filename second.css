@@ -1,0 +1,31 @@
+/* Styles for images */
+.firstimage {
+  color: hotpink;
+}
+
+.secondimage {
+  color: lawngreen;
+}
+
+.thirdimage {
+  color: lightcoral;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  display: grid;
+  padding: 5%;
+}
+
+/* Style adapted from W3Schools.com */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 40%;
+}
+
+.cardcontainer {
+  padding: 2px 16px;
+}

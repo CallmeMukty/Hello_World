@@ -1,0 +1,68 @@
+/* Master Styles */
+body {
+  margin: 0px;
+}
+
+/* .navcontainer {
+  display: grid;
+  grid-template-columns: 1fr;
+} */
+
+/* Nav styles */
+.navwrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 35px;
+}
+
+.leftnav {
+  display: flex;
+}
+.navwrapper > .leftnav > div {
+  margin-right: 20px;
+  font-size: 0.9em;
+}
+/* link transition format from Jordan Hudges */
+.navlinkwrapper {
+  height: 20px;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.5s;
+}
+
+.navlinkwrapper a {
+  color: #444;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+.navlinkwrapper :hover {
+  border-bottom: 1px solid black;
+}
+.navlinkwrapper a :hover {
+  color: black;
+}
+
+/* Portfolio Styles */
+.postimagesection {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+/* First styles */
+h1 {
+  color: aqua;
+}
+
+ul {
+  color: brown;
+  list-style: none;
+  display: flex;
+}
+
+p {
+  color: green;
+}
+
+footer {
+  color: indigo;
+  text-align: center;
+}

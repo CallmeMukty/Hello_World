@@ -1,0 +1,22 @@
+/* Styles for social section and author info */
+.social_section {
+  display: flex;
+  padding-top: 20%;
+}
+
+.social {
+  display: block;
+}
+
+.authorinfo {
+  padding: 4%;
+  display: grid;
+}
+
+img {
+  width: 90%;
+}
+
+.avatar {
+  width: 50%;
+}
